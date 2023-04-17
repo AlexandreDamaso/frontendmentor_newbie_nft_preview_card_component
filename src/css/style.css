@@ -19,7 +19,6 @@ body {
     border-radius: 8px;
 }
 .nft__title {
-    color: var(--color-title);
     font-size: var(--font-size-title);
     font-weight: var(--font-weight-title);
     padding-top: 20px;
