@@ -8,10 +8,15 @@
     --font-size-ether: 17px;
     --font-size-emphasis: 17px;
     /* ------------------------------- */
+    --font-size-title-resp: 22px;
+    --font-size-text-resp: 16px;
+    --font-size-ether-resp: 17px;
+    --font-size-emphasis-resp: 17px;
+    /* ------------------------------- */
     --font-weight-title: 500;
     --font-weight-text: 300;
     --font-weight-ether: 600;
-    --font-weight-emphasis: 600;
+    --font-weight-emphasis: 200;
     /* ------------------------------- */
     --line-height-text: 25px;
     /* ------------------------------- */
@@ -19,6 +24,7 @@
     --color-text: hsl(215, 51%, 70%);
     --color-ether: hsl(178, 100%, 50%);
     --color-emphasis: hsl(0, 0%, 100%);
+    --color-hover: rgba(0, 255, 247, 0.5);
     /* ------------------------------- */
     --color-bg-main: hsl(216, 54%, 11%);
     --color-bg-card: hsl(215, 51%, 16%);

@@ -13,10 +13,24 @@ body {
     border-radius: 15px;
     padding: 25px;
 }
-.nft__card {
+.nft__fixed {
     width: 300px;
     height: 300px;
     border-radius: 8px;
+}
+.nft__view {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: var(--color-hover);
+    cursor: pointer;
+}
+.nft__card:hover .nft__view {
+    display: flex;
 }
 .nft__title {
     font-size: var(--font-size-title);
@@ -77,4 +91,5 @@ body {
 }
 .nft__name {
     color: var(--color-emphasis);
+    font-weight: var(--font-weight-emphasis);
 }

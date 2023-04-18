@@ -1,4 +1,30 @@
 /*
-- Mobile: 375px
+- Mobile: 375px       330x540
 - Desktop: 1440px
 */
+@media (max-width: 375px) {
+    .nft {
+        width: 330px;
+        height: 540px;
+    }
+    .nft__fixed {
+        width: 280px;
+        height: 280px;
+    }
+    .nft__view {
+        width: 280px;
+        height: 280px;
+    }
+    .nft__text {
+        font-size: var(--font-size-text-resp);
+        padding: 10px 0px;
+    }
+    .nft__info {
+        padding-bottom: 14px;
+    }
+    .nft__creator {
+        padding-top: 14px;
+    }
+}
+
+
