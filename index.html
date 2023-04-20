@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,16 +13,17 @@
     <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 <body>
-    <section class="nft">
+
+    <main class="nft">
         <div class="nft__card">
             <div class="nft__view">
                 <img src="./src/img/icon-view.svg" alt="Mouse sobre a imagem">
             </div>
-            <img class="nft__fixed" src="./src/img/image-equilibrium.jpg" alt="Imagem Equilibrium">
+            <div role="img"><img class="nft__fixed" src="./src/img/image-equilibrium.jpg" alt="Imagem Equilibrium"></div>
         </div>
-        <h1 class="nft__title"><a href="#">Equilibrium #3429</a></h1>
-        <p class="nft__text">Our Equilibriom collection promotes balance and calm.</p>
-        <div class="nft__info">
+        <div role="title"><h1 class="nft__title"><a href="#">Equilibrium #3429</a></h1></div>
+        <div role="text"><p class="nft__text">Our Equilibriom collection promotes balance and calm.</p></div>
+        <div class="nft__info" role="contentinfo">
             <div class="nft__ether">
                 <img src="./src/img/icon-ethereum.svg" alt="" class="nft__icon">
                 <div class="nft__ethereum">0.041 eth</div>
@@ -31,10 +33,11 @@
                 <div class="nft__time">3 days left</div>
             </div>
         </div>
-        <div class="nft__creator">
+        <div class="nft__creator" role="doc-credits">
             <div ><img src="./src/img/image-avatar.png" alt="" class="nft__photo"></div>
             <div class="nft__creation">Creation of <a href="#" class="nft__name">Jules Wyvern</a></div>
         </div> 
-    </section>
+    </main>
+
 </body>
 </html>
